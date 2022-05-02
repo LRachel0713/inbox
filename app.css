@@ -1,0 +1,40 @@
+/* font:abel
+@font-face {
+    font-family: "abel";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), 
+         url("../assets/fonts/abel/abel-regular.ttf") format("ttf"), 
+         url("../assets/fonts/abel/abel-regular.woff") format("woff"), 
+         url("../assets/fonts/abel/abel-regular.woff2") format("woff2");
+  }
+ */
+
+
+
+  @font-face {
+    font-family: "anybody";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), 
+         url("../assets/fonts/anybody/anybody-regular.woff2") format("woff2"), 
+         url("../assets/fonts/anybody/anybody-regular.woff") format("woff"), 
+         url("../assets/fonts/anybody/anybody-regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "anybody";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""),
+         url("../assets/fonts/anybody/anybody-medium.woff2") format("woff2"), 
+         url("../assets/fonts/anybody/anybody-medium.woff") format("woff"), 
+         url("../assets/fonts/anybody/anybody-medium.ttf") format("truetype");
+  }
+
+
+body { 
+    font-family: "anybody", "abel", sans-serif;
+}
+
+
